@@ -78,7 +78,7 @@ def extract_main_data(soup: BeautifulSoup) -> dict[str, str]:
     numbers = [clean_text(x.text) for x in soup.find_all("td", class_="cislo")]
 
     return {
-        "voliči v seznamu": numbers[3],
+        "počet voličů": numbers[3],
         "vydané obálky": numbers[4],
         "platné hlasy": numbers[7],
     }
