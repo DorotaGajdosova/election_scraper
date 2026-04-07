@@ -17,7 +17,7 @@ Výstup obsahuje:
 
 ## Instalace
 
-Nejprve vytvoř virtuální prostředí:
+Nejprve vytvoří virtuální prostředí:
 
 python -m venv venv
 
@@ -25,13 +25,13 @@ Aktivace ve Windows:
 
 venv\Scripts\activate
 
-Nainstaluj potřebné knihovny:
+Nainstaluje potřebné knihovny:
 
 pip install -r requirements.txt
 
 ## Spuštění programu
 
-Program se spouští se dvěma argumenty:
+Program se spouští dvěma argumenty:
 
 py .\main.py "URL_UZEMNIHO_CELKU" vystup.csv
 
